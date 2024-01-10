@@ -1,0 +1,18 @@
+challenge3Log ~/first (solvingBranch)
+$ git pull https://github.com/EmilRosenov/CSS-Layout-workshop.git
+From https://github.com/EmilRosenov/CSS-Layout-workshop
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+challenge3Log ~/first (solvingBranch)
+$ ls
+challenge2Log.txt.txt  css-layout/  log.txt
+
+challenge3Log ~/first (solvingBranch)
+$ code css-layout/
+
+challenge3Log ~/first (solvingBranch)
+$ git add css-layout/
+
+challenge3Log ~/first (solvingBranch)
+$ git add challenge3Log.txt

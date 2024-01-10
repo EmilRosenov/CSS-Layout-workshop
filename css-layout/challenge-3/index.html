@@ -26,17 +26,47 @@
         padding: 0;
       }
       header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* flex-direction: row; */
         padding: 1.5rem;
         background-color: black;
         color: white;
       }
+
+      nav{
+        display: flex;
+        /* flex-direction: row; */
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .row{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        
+      }
+
+      .row > li {
+        
+        display: flex;
+        justify-content: space-between;
+      }
+
+      li > a {
+        display: flex;
+        justify-content: space-between;
+        
+      }
     </style>
   </head>
   <body>
-    <header>
+    <header class="row justify-space-between">
       <a href="/" aria-label="Home">🐹</a>
       <nav>
-        <ul>
+        <ul class="row">
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#blog">Blog</a></li>
