@@ -89,8 +89,12 @@ img {
 /* A few app-specific styles */
 
 header {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
   border-bottom: 1px solid hsl(200, 10%, 80%);
   padding: 0.75rem 1.5rem;
+
 }
 
 .logo {
